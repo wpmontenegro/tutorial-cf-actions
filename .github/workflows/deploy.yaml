@@ -5,7 +5,7 @@ on:
     branches: ["main"]
 
 jobs:
-  deploy-codigo-facilito
+  deploy-codigo-facilito:
     runs-on: ubuntu-latest
     steps:
       - run: echo "Hacemos pull del codigo"
